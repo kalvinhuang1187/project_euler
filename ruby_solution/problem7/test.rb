@@ -7,3 +7,5 @@ What is the 10 001st prime number?
 require 'Prime'
 
 puts Prime.instance.first(10_001).last
+
+puts Prime.take(10_001).last
